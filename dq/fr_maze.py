@@ -1,3 +1,4 @@
+from __builtins__ import *
 import common
 
 
@@ -35,7 +36,7 @@ def step3_2():
 			move(front)
 		else:
 			index=(index+1)%4
-				
+
 def to_obtain_gold(num):
 	while num_items(Items.Gold) < num:
 		size = get_world_size()
@@ -50,5 +51,5 @@ def to_obtain_gold(num):
 		spawn_drone(step3)
 		step3_2()
 
-	
-	
+
+

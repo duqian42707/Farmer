@@ -1,3 +1,4 @@
+from __builtins__ import *
 import common
 
 def all_map_once(size):
@@ -8,7 +9,7 @@ def all_map_once(size):
 		for i in range(size-2):
 			move(North)
 		move(East)
-		
+
 		for i in range(size-2):
 			move(South)
 		if n < size/2-1:
@@ -31,7 +32,7 @@ def max_snake_once():
 		if not result:
 			break
 	change_hat(Hats.Brown_Hat)
-	
+
 def to_obtain_bone(num):
 	clear()
 	while num_items(Items.Bone)<num:
@@ -39,5 +40,4 @@ def to_obtain_bone(num):
 		if num_items(Items.Cactus)<64*size*size:
 			return False
 		max_snake_once()
-	
-		
+

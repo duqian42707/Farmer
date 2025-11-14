@@ -1,3 +1,4 @@
+from __builtins__ import *
 import common
 
 food=(0,0)
@@ -18,7 +19,7 @@ def up_and_down():
 	for i in range(size-2):
 		move2(North)
 	move2(East)
-	
+
 	for i in range(size-2):
 		move2(South)
 
@@ -29,7 +30,7 @@ def back_to_zero():
 	for i in range(x):
 		move2(West)
 	move2(North)
-		
+
 # 纵向上去下来后的移动:
 # 如果长度没超：
 # 1. 往右移动n个单位
@@ -72,7 +73,7 @@ def all_map_once(size):
 
 def max_snake_once():
 	global food
-	global length 
+	global length
 	common.goto(0,0)
 	change_hat(Hats.Dinosaur_Hat)
 	food = measure()
@@ -88,5 +89,4 @@ def to_obtain_bone(num):
 	clear()
 	while num_items(Items.Bone)<num:
 		max_snake_once()
-	
-		
+
