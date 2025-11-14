@@ -1,0 +1,6 @@
+#leaderboard_run(Leaderboards.Dinosaur,"贪吃蛇-哈密顿回路2" ,10000)
+#leaderboard_run(Leaderboards.Cactus,"仙人掌-多线程" ,10000)
+#leaderboard_run(Leaderboards.Pumpkins,"南瓜-多线程" ,10000)
+#leaderboard_run(Leaderboards.Maze,"gold2" ,10000)
+#leaderboard_run(Leaderboards.Carrots,"混合种植-胡萝卜" ,10000)
+leaderboard_run(Leaderboards.Fastest_Reset,"Fastest_Reset" ,10000)
